@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAFF3E1C2B75529E009B8EDD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFF3E1B2B75529E009B8EDD /* main.swift */; };
+		CAFF3E232B7552AC009B8EDD /* VectorSquare.metal in Sources */ = {isa = PBXBuildFile; fileRef = CAFF3E222B7552AC009B8EDD /* VectorSquare.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		CAFF3E182B75529E009B8EDD /* SquareApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SquareApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFF3E1B2B75529E009B8EDD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CAFF3E222B7552AC009B8EDD /* VectorSquare.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = VectorSquare.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		CAFF3E0F2B75529E009B8EDD = {
 			isa = PBXGroup;
 			children = (
+				CAFF3E222B7552AC009B8EDD /* VectorSquare.metal */,
 				CAFF3E1A2B75529E009B8EDD /* SquareApp */,
 				CAFF3E192B75529E009B8EDD /* Products */,
 			);
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFF3E232B7552AC009B8EDD /* VectorSquare.metal in Sources */,
 				CAFF3E1C2B75529E009B8EDD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
